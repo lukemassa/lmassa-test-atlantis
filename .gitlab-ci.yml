@@ -1,0 +1,12 @@
+# Check out the entire history because we have a test that looks at
+# when requests were made
+
+stages:
+- test
+
+run-tests:
+  stage: test
+  image: alpine:latest
+
+  script:
+  - false
