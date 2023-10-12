@@ -3,3 +3,11 @@ projects:
 - name: lmassa
   workspace: lmassa
   dir: .
+  autoplan:
+    when_modified:
+    - '*.tf*'
+    - terragrunt.hcl
+- dir: one
+  workspace: lmassa-one
+- dir: two
+  workspace: lmassa-one
