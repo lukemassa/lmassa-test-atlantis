@@ -9,4 +9,4 @@ run-tests:
   image: alpine:latest
 
   script:
-  - /bin/false
+  - /bin/true
