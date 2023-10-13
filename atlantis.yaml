@@ -10,4 +10,4 @@ projects:
 - dir: one
   workspace: lmassa-one
 - dir: two
-  workspace: lmassa-one
+  workspace: lmassa-two
